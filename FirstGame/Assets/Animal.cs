@@ -9,8 +9,14 @@ using UnityEngine;
 //into English, so that we as humans can speak plainly to get the computer to
 //do what we want it to do.
 
+//Ints are smaller and faster to use, floats (floating point values) are more precise
+//Strings (string of characters) have to have " " in order to function.
+//Data in variables can be changed.
+//In games you have functions and parameters (variables).
 public class Animal : MonoBehaviour {
 
+	public string Name;
+	public int foodCount;
 	// Use this for initialization
 	void Start () {
 		print("My animal is eating.");
@@ -19,7 +25,10 @@ public class Animal : MonoBehaviour {
 	
 	void OnMouseDown()
 	{
-		print("Meow.");
+
+		print("I have a " + Name);
+		print("It has this amount of food left: " + foodCount);
+
 	}
 
 	// Update is called once per frame
