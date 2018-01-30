@@ -29,6 +29,23 @@ public class Animal : MonoBehaviour {
 		print("I have a " + Name);
 		print("It has this amount of food left: " + foodCount);
 
+		if(foodCount == 42)
+		{
+			print ("The pet has found the meaning of life.");
+		}
+
+		if(Name == "Cat")
+		{
+			print ("This creature is the epitome of evil.");
+		}
+
+		if (Name == "Dog")
+		{
+			print ("He's a good boy!");
+		}
+
+		
+
 	}
 
 	// Update is called once per frame
