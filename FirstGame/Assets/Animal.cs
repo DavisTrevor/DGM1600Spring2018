@@ -13,6 +13,13 @@ using UnityEngine;
 //Strings (string of characters) have to have " " in order to function.
 //Data in variables can be changed.
 //In games you have functions and parameters (variables).
+
+//There are five kinds of variables; integral, floating point, decimal, boolean, and nullable.
+//Integral are just whole numbers.
+//Floating points (floats) are more exact, but take more space.
+//Decimal types are just decimal numbers.
+//Booleans are true or false values.
+//Nullables are mutations of other variable types, it just adds the option to return a null value to the values of other variables.
 public class Animal : MonoBehaviour {
 
 	public string Name;
