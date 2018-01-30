@@ -22,6 +22,7 @@ using UnityEngine;
 //Nullables are mutations of other variable types, it just adds the option to return a null value to the values of other variables.
 public class Animal : MonoBehaviour {
 
+	public bool Key = false;
 	public string Name;
 	public int foodCount;
 	// Use this for initialization
@@ -51,7 +52,15 @@ public class Animal : MonoBehaviour {
 			print ("He's a good boy!");
 		}
 
-		
+		if(Key == true)
+		{
+			print ("Door has been unlocked.");
+		}
+
+		if(Key == true)
+		{
+			print ("The door slides open");
+		}
 
 	}
 
