@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba9ab7e09561694a9a1fd11ad8b6878, type: 3}
   m_Name: Player1
   m_EditorClassIdentifier: 
-  Score: 0
+  PlayerName: Joe
+  Score: 564
+  MPs: 12

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerLevel: 100
   Name: Ammo
+  CurrentPlayer: {fileID: 0}
