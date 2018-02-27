@@ -1,11 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ArraysAndLoops : MonoBehaviour {
 
 public int [] HighScores;
-public PowerUp[] PowerUps;
 public Player[] Players;
 
 	// Use this for initialization
