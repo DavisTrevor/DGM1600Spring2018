@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ba9ab7e09561694a9a1fd11ad8b6878, type: 3}
+  m_Script: {fileID: 11500000, guid: e4d74ce7cd7b9a04d914efcf3ff6893f, type: 3}
   m_Name: Player1
   m_EditorClassIdentifier: 
-  PlayerName: Joe
-  Score: 564
-  MPs: 12
+  Health: 0

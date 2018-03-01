@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ba9ab7e09561694a9a1fd11ad8b6878, type: 3}
-  m_Name: Player2
+  m_Script: {fileID: 11500000, guid: 655cac3a3c9dc5546ab2fabe47652ba9, type: 3}
+  m_Name: LowPower
   m_EditorClassIdentifier: 
-  PlayerName: Logan
-  Score: 1536
-  MPs: 15
+  PowerLevel: 1
