@@ -6,11 +6,9 @@ using UnityEngine;
 
 public class Subtract : Calculation{
 
-	public override float Calculate (string a, string b)
+public override string FinishCalculation ()
 	{
-		aNum = float.Parse(a);
-		bNum = float.Parse(b);
-		return aNum - bNum;
+		return (aNum + bNum).ToString();
 	}
 
 }
