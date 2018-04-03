@@ -9,7 +9,7 @@ public class MoveCharacter : MonoBehaviour {
 
 	void Start () 
 	{
-		controller = GetComponent<ChatacterController>();
+		controller = GetComponent<CharacterController>();
 	}
 	
 	void Update () 
