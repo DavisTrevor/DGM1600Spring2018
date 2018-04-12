@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour {
 //Image var FillAmount
 //if(FillAmount > 0 subtract health.)
 //PowerUp Class Float PowerLevel
+//
 
 public Image FillAmount;
 public PowerUp PowerLevel;
