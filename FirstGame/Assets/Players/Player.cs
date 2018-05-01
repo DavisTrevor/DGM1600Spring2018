@@ -5,6 +5,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Player : ScriptableObject {
 
-	public int Health;
+	public float Health;
 	
 }
