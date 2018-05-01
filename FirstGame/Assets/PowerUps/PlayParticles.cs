@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayParticles : MonoBehaviour {
 
-	private void private void OnTriggerEnter(Collider other)
+	private void OnTriggerEnter(Collider other)
 	{
-		ParticleSystem.Emit(100);
+		UnityEngine.ParticleSystem.Emit(100);
 	}
 	
 }

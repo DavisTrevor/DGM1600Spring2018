@@ -14,6 +14,6 @@ public class BasicAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Agent.destination = Player.postion;
+		Agent.destination = Player.position;
 	}
 }

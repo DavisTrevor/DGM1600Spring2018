@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Trigger : MonoBehaviour {
 
-	public float PowerLevel = 0.2;
+	public float PowerLevel;
 	public Image HealthBar;
 	public PowerUp PowerUpTransfer;
 	
